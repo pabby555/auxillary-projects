@@ -60,16 +60,20 @@ Creating id_rsa.pub and id_rsa files and adding the keys.
 <!-- Horizontal Rule -->
 ------------------------------------
 
-5. STEP Five: Creating Script onboarding_users.sh
+5. STEP Five: Creating Script, adding execution permission for ubuntu user to run script, and finally running script.
 <!-- Code Blocks -->
 ```bash
 $ vim onboarding_users.sh
 $ chmod u+x onboarding_users.sh
 $./onboarding_users.sh
 ```
-Creating Script, adding execution permission for ubuntu user to run script, and finally running script.
+Execution permission given to ubuntu user.
 ![Creating script and adding execution permission](./images-aux-prj1/creating-script.png)
 
+Shell Script
+![Shell script](./images-aux-prj1/shell-script.png)
+
+Script was successful. New users in /etc/passwd file.
 ![Running script ](./images-aux-prj1/verifying-successful-execution-script.png)
 
 <!-- Horizontal Rule -->
